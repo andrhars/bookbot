@@ -14,10 +14,6 @@ def main():
         print("")
         print("--- End report ---")
 
-        
-        
-        #print(dict_of_dicts(file_contents))
-
 
 def count_words(text):
     words = text.split()
