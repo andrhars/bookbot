@@ -23,7 +23,7 @@ def count_characters(text):
     lower_characters = text.lower()
     characters = {}
     for c in lower_characters:
-        if c.isalpha() :
+        if c.isalpha():
             characters[c] = characters.get(c, 0) + 1
     return(characters)
 
